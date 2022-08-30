@@ -1,0 +1,14 @@
+@import "../../assets/css/variables.scss";
+
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+  padding: 0 16px;
+  border-radius: 10px;
+  color: var(--secondary-dark);
+}
+
+.tagText {
+}

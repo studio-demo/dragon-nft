@@ -1,0 +1,21 @@
+@import "../../assets/css/variables.scss";
+
+.root {
+}
+
+.ContainerLiveAuctions {
+  display: flex;
+  gap: $spacing-3;
+}
+
+.TitleAction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: $spacing-5;
+}
+
+.Title {
+  color: var(--gray-100);
+  font-size: 48px;
+}

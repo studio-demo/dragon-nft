@@ -1,0 +1,13 @@
+@import "../../assets/css/variables.scss";
+
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
+.tabsContainer {
+  display: flex;
+  column-gap: 32px;
+}

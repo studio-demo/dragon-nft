@@ -1,0 +1,31 @@
+@import "../../assets/css/variables.scss";
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 205px;
+  border: 1px solid var(--primary);
+  border-radius: 16px;
+  background-image: radial-gradient(circle at 0% 0%, #33557b 0%, #212128 100%);
+  background-color: transparent;
+  background-position: 0% 0%;
+  background-size: auto auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+
+.TitleBanner {
+  font-size: 48px;
+  color: #fff;
+}
+
+.RunningTextBanner {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  padding-top: $spacing-3;
+  padding-bottom: 40px;
+}

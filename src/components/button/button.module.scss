@@ -1,0 +1,23 @@
+@import "../../assets/css/variables.scss";
+
+.root {
+  display: inline-block;
+  border-radius: 16px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.primary {
+  color: var(--secondary-dark);
+  background: var(--primary);
+}
+
+.secondary {
+  border: 1px solid var(--primary);
+  color: #fff;
+}
+
+.secondary:hover {
+  color: var(--secondary-dark);
+  background: var(--primary);
+}

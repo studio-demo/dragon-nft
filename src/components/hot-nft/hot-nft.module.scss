@@ -1,0 +1,30 @@
+@import "../../assets/css/variables.scss";
+
+.root {
+}
+
+.GrigContainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  gap: $spacing-3;
+}
+
+.ButtonsContainer {
+  display: flex;
+  gap: $spacing-2;
+  justify-content: end;
+}
+
+.TitleNFT {
+  color: #fff;
+}
+
+.TitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 48px;
+  margin-bottom: 60px;
+}
